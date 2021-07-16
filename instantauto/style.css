@@ -1,0 +1,627 @@
+/* colors auto */
+
+:root {
+    --pr: #FFEE00;
+    --sc: #4D5159;
+    --scd: #101E26;
+    --tr: #ffffff;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Source Sans Pro;
+    color: var(--tr);
+    background-color: var(--sc);
+}
+
+/* navbar */
+
+.navbar-brand .material-icons {
+
+    display: inline-block;
+    position: relative;
+    transform: scale(1.1);
+    top: 3px;
+    color: var(--tr) !important;
+}
+
+.navbar-brand {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 1000;
+    font-size: 24px;
+    color: var(--pr) !important;
+}
+
+.my-navbar {
+    color: var(--tr) !important;
+    background-color: var(--sc) !important;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3), 0px 5px 20px rgba(0, 0, 0, 0.1) !important;
+
+}
+
+.dropdown-menu {
+    background-color: var(--sc);
+}
+
+.dropdown-item {
+    color: var(--tr);
+}
+
+
+.menu {
+    top: 0px;
+    transform: scale(1.3);
+    color: var(--pr);
+}
+
+.nav-text {
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: var(--tr) !important;
+    font-weight: normal;
+    margin-right: 13px;
+}
+
+.nav-link.active {
+    color: var(--pr) !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+
+    color: var(--pr) !important;
+
+
+}
+
+.dropdown-item:hover {
+    background-color: var(--sc) !important;
+    color: var(--pr) !important;
+    font-weight: bold;
+
+}
+
+.dropdown-item .socicon-whatsapp,
+.socicon-dribbble,
+.socicon-instagram {
+    margin-right: 5px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* carousel */
+.carousel-inner .carousel-item {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.caroful {
+    height: 100vh;
+    width: fit-content;
+}
+
+.title-caro {
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8), 0px 5px 24px rgba(0, 0, 0, 0.2);
+}
+
+.caption-caro {
+    text-align: left;
+    color: var(--pr);
+    font-size: medium;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-indicators li {
+
+    background-color: var(--pr) !important;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+
+
+/* content */
+.isi {
+
+    margin-bottom: 56px !important;
+}
+
+.judultpk {
+    font-weight: 900 !important;
+    margin-bottom: 30px !important;
+}
+
+/* card */
+.menuutama .card {
+    position: relative;
+    background-color: var(--pr) !important;
+    color: var(--scd) !important;
+    border-radius: 0px;
+    margin-bottom: 31px;
+    border: 0px;
+    top: 0px;
+    transition: 0.2s;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.menuutama .card:hover {
+    top: -3px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.7) !important;
+}
+
+.menuutama img {
+    height: 105px;
+    width: fit-content;
+    position: relative;
+    padding: 1.25rem;
+}
+
+
+
+.menuutama .card-title {
+
+    font-weight: bolder;
+}
+
+.menuutama .card-text {
+    font-weight: 200;
+}
+
+/* seemore btn */
+
+.seemore .btn-dark {
+    border-radius: 50px !important;
+    background-color: var(--scd) !important;
+    transition: transform .2s;
+    transform: translateY(0px);
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.seemore .btn-dark:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+
+}
+
+/* quote utama */
+.quoteutama p {
+    margin-top: -10px;
+}
+
+/* promotion */
+.promo .card {
+    border: rgba(0, 0, 0, 0) !important;
+    background-color: var(--pr) !important;
+    color: var(--scd) !important;
+}
+
+.promo .card-img {
+    float: center;
+    height: 55vh;
+    max-height: 65vh;
+    transform-origin: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: rgba(0, 0, 0, 0) !important;
+}
+
+
+.promo {
+    margin: 0 -3.7vw;
+}
+
+.promo h3 {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: underline;
+
+}
+
+.promo h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.promo h4 {
+    font-size: 22px;
+
+}
+
+
+/* gallery */
+
+.gallery.row {
+    text-align: center;
+
+}
+
+.gallery.col {
+    margin: auto;
+    padding: auto;
+    transform-origin: center center;
+}
+
+.gallery img {
+    margin: auto;
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    /* left: -2px; */
+    z-index: 0;
+    transition: 0.6s;
+    transform-origin: center center;
+    transform: scale(1);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) !important;
+}
+
+
+
+/* footer */
+footer .atas {
+    background-color: var(--scd) !important;
+    color: var(--tr) !important;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+footer .material-icons {
+    transform: scale(2);
+    transition: transform .4s;
+    transition: 0.5s;
+    color: var(--tr) !important;
+}
+
+footer .material-icons:hover {
+    transform: scale(2.8);
+    color: var(--pr) !important;
+}
+
+footer h2 {
+    color: var(--tr) !important;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+a.brand-footer:hover {
+    text-decoration: none !important;
+
+}
+
+.sosmed-footer a {
+    color: var(--tr) !important;
+    transform: scale(1);
+    margin: 0 7px;
+}
+
+.sosmed-footer:hover a {
+    text-decoration: none !important;
+
+}
+
+.hyperlink-footer a {
+    color: var(--tr) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 6px 5px;
+}
+
+footer .bawah {
+    background-color: var(--pr) !important;
+    color: var(--scd) !important;
+    text-align: center !important;
+    font-size: smaller;
+}
+
+footer .bawah a {
+    color: var(--scd) !important;
+}
+
+
+/* ..........Desktop version......... */
+@media (min-width: 992px) {
+
+    /* navbar */
+    .nav-link {
+
+        font-weight: normal;
+        margin-right: 5px;
+    }
+
+    /* carousel */
+    .carousel-indicators li {
+        width: 12px;
+        height: 12px;
+    }
+
+    .title-caro {
+        margin-top: -45vh;
+    }
+
+
+    /* container utama */
+    .isi {
+
+        margin-bottom: 120px;
+    }
+
+    /* card menu */
+    .menuutama .card-columns {
+        column-count: 4;
+    }
+
+    .menuutama img {
+        margin-bottom: 6.4rem;
+    }
+
+    .menuutama .oservices {
+        margin-bottom: 0;
+    }
+
+    .menuutama .card {
+        border-radius: 0px;
+        border: none;
+    }
+
+    /* promotion */
+    .promo .card-img {
+        float: left;
+        height: 440px;
+        max-height: 440px;
+        width: 740px;
+        max-width: 740px;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: .2s;
+        background-size: 100%;
+        border: rgba(0, 0, 0, 0) !important;
+    }
+
+    .promo .card-img:hover {
+        max-width: 740px;
+        max-height: 440px;
+        background-size: 108%;
+        border: rgba(0, 0, 0, 0) !important;
+    }
+
+    .promo {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 120px;
+    }
+
+    /* gallery */
+    .gallery img {
+        margin: auto;
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: auto;
+        max-width: 380px;
+        max-height: 305px;
+        position: relative;
+        left: -15px;
+        z-index: 0;
+        transition: 0.6s;
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) !important;
+    }
+
+    .gallery img:hover {
+        position: relative;
+        z-index: 1;
+        transform: scale(1.2);
+        box-shadow: 0px 18px 12px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    /* footer */
+    footer .atas {
+        padding: 51px 0px;
+        text-align: center;
+    }
+
+}
+
+
+/* ------------- ABOUT PAGE ---------------- */
+
+.bg-about .jumbotron-fluid {
+    background-image: url(img/aboutus.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    max-height: 100vw;
+    background-repeat: no-repeat;
+
+}
+
+.bg-about .textus h1 {
+    margin-top: 32vh;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.7), 0px 10px 25px rgba(0, 0, 0, 0.2) !important;
+
+}
+
+.descabout p {
+    font-size: 18px;
+}
+
+/* ---------------------BLOGSS---------- */
+.blog {
+    margin: 16px;
+
+}
+
+.blog img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    max-height: 320px;
+    height: 100%;
+
+
+}
+
+.blog .datepost {
+    display: block;
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    margin-top: -56px;
+    margin-bottom: 6px;
+    height: 56px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    color: white;
+}
+
+.datepost span {
+    margin: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.blog h3 {
+    font-weight: 800 !important;
+
+}
+
+#judulblog {
+    display: inline-block;
+    color: var(--tr) !important;
+    transition: .2s;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#judulblog:hover {
+    color: var(--pr) !important;
+    text-decoration: none;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.blog .badge {
+    text-align: right;
+    font-weight: 500;
+    margin-top: -24px;
+    vertical-align: middle;
+    background: var(--pr);
+    color: var(--scd);
+    transition: 0.2s;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.blog .badge:hover {
+    margin-top: -28px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* ----------------- BLOG SPECIFIC ------------------ */
+
+.navbread a {
+    color: var(--scd);
+}
+
+.navbread a:hover {
+
+    color: var(--scd);
+}
+
+.blogread h2 {
+    font-weight: 600;
+}
+
+.blogread img {
+    height: auto;
+    width: 100%;
+
+}
+
+.blogread small {
+    margin-top: -8px;
+    opacity: 0.8;
+}
+
+.mostview {
+    background: var(--pr);
+    color: var(--scd);
+    padding: 4px 0px;
+}
+
+.mostview h6 {
+    margin: auto;
+}
+
+.backblogs .btn-dark {
+
+    background-color: var(--scd);
+    transition: transform .2s;
+    transform: translateY(0px);
+    transition: 0.2s;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.backblogs .btn-dark:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.3);
+
+}
+
+
+@media (min-width: 770px) {
+    .mostviewlink .list-group-item {
+        padding: .75rem .55rem;
+    }
+
+    .blogread small {
+        margin-top: -25px;
+    }
+}
+
+/* ---------------------- GALLERY ---------------------- */
+.gallerycontent img {
+    position: relative;
+    z-index: 0;
+    transition: .3s;
+    margin: auto;
+    width: 100%;
+    max-height: auto;
+}
+
+
+
+
+@media (min-width: 900px) {
+    .gallerycontent img {
+        left: -15px;
+        width: auto;
+        max-height: 100%;
+    }
+
+    .gallerycontent img:hover {
+        z-index: 1;
+        transform: scale(1.2);
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.7);
+    }
+}
